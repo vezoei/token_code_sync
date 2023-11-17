@@ -1,0 +1,11 @@
+#!/bin/bash
+
+## 把a仓库的所有分支 所有提交记录  同步备份到b仓库
+## 不处理此行 a仓库地址           分割 b 仓库地址                                  分割 本地文件目录
+# git@gitee.com:bak_tr/test.git===git@gitee.com:bak_s/srse.git===srse_bak
+
+
+http://oauth2:${a_gitlab_token}@git.ddd.com/xoxo/oxox.git===https://${b_github_token}@github.com/ei/doxdox.git===doxdox_bak
+
+
+
