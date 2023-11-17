@@ -112,9 +112,9 @@ do
     cd "${fileDirName}"
     yellow "git remote add --mirror=fetch origin_simple_bak  ${bRepo}"
     git remote add --mirror=fetch origin_simple_bak  ${bRepo}
-    git pull --all
-    git push origin origin_simple_bak --all  --force
-    git push origin origin_simple_bak --tags
+    # git pull --all
+    git push origin_simple_bak --all  --force
+    git push origin_simple_bak --tags
 
     rm -rf ${fileDirName}
     cd "${pwd_dir}"
